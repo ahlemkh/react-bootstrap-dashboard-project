@@ -1,0 +1,170 @@
+,
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2021",
+        "Country": "Egypt",
+        "Amount": "342724",
+        "Target": "509978"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.8206, 30.8025]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2021",
+        "Country": "Algeria",
+        "Amount": "238460",
+        "Target": "280188"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.0339, 1.6596]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2021",
+        "Country": "Russia",
+        "Amount": "231288",
+        "Target": "209587"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.1263, 36.4935]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2021",
+        "Country": "United Kingdom",
+        "Amount": "210228",
+        "Target": "273633"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.1263, 36.4935]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2021",
+        "Country": "Canada",
+        "Amount": "135984",
+        "Target": "204158"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [168.52, -17.0309]
+      },
+      " id": "usc000tihy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2021",
+        "Country": "Brazil",
+        "Amount": "128888",
+        "Target": "275347"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.6197890205486, -9.58890301712257]
+      },
+      " id": "usc000tihy"
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2022",
+        "Country": "Egypt",
+        "Amount": "365892",
+        "Target": "524450"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.8206, 30.8025]
+      },
+      " id": "usc000tihy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2022",
+        "Country": "Russia",
+        "Amount": "188312",
+        "Target": "201424"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [168.52, -17.0309]
+      },
+      " id": "usc000tihy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2022",
+        "Country": "Algeria",
+        "Amount": "387584",
+        "Target": "700000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [28.0339, 1.6596]
+      },
+      " id": "usc000tihy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2022",
+        "Country": "United Kingdom",
+        "Amount": "178572",
+        "Target": "255358"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [168.52, -17.0309]
+      },
+      " id": "usc000tihy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2022",
+        "Country": "Brazil",
+        "Amount": "127296",
+        "Target": "181256"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [168.52, -17.0309]
+      },
+      " id": "usc000tihy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2022",
+        "Country": "Canada",
+        "Amount": "125136",
+        "Target": "199811"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [168.52, -17.0309]
+      },
+      " id": "usc000tihy"
+    }
