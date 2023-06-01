@@ -200,6 +200,11 @@ function Map() {
                         style={{ accentColor: "#51cbce" }}
                       ></input>
                     </Row>
+                    <Row className="mt-3">
+                      <Col md="12">
+                       {dataDonutChart &&  <DonutChart year={year} sum= {sum } data ={dataDonutChart}/> } 
+                      </Col>
+                    </Row>
                     <Row className="mt-4">
                       <Col md="12">
                         {getData(year, data.features).map((data) => (
@@ -217,11 +222,7 @@ function Map() {
                         ))}
                       </Col>
                     </Row>
-                    <Row className="mt-3">
-                      <Col md="12">
-                       {dataDonutChart &&  <DonutChart year={year} sum= {sum } data ={dataDonutChart}/> } 
-                      </Col>
-                    </Row>
+                    
                   </Col>
                   <Col md="9">
                     <MapWrapper />

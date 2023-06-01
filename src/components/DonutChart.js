@@ -7,23 +7,14 @@ import { useState , useEffect } from 'react';
 
 function DonutChart(props) {
 
-  /*const getSubtitle = (y,sum) => {
+    const getSubtitle = (y,sum) => {
   
-    return `<span style="font-size: 80px">${y}</span>
-        <br>
-        <span style="font-size: 22px">
-            Total: <b> ${sum}</b> TWh
-        </span>`;
-  }
-  subtitle: {
-        useHTML: true,
-        text: getSubtitle(props.year,props.sum),
-        floating: true,
-        verticalAlign: 'middle',
-        y: 30
-    },
-    */
-  
+        return `<span>${y}</span>
+            <br>
+            <span >
+                Total: <b> ${sum}</b> TWh
+            </span>`;
+      }
   console.log(props.data);
   const [chartOptions, setChartOptions] = useState( {
     title: {
@@ -31,6 +22,13 @@ function DonutChart(props) {
         align: 'center'
     },
 
+    subtitle: {
+        useHTML: true,
+        text: getSubtitle(props.year,props.sum),
+        floating: true,
+        verticalAlign: 'middle',
+        y: 30
+    },
 
     legend: {
         enabled: false
@@ -65,12 +63,12 @@ function DonutChart(props) {
         {
             type: 'pie',
             name: props.year,
-            data: props.data[1]
+            data: props.data
         }
     ]
 });
 
-
+                     
  
     
   
