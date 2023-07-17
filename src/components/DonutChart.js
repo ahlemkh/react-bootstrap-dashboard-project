@@ -1,100 +1,93 @@
-import React from "react";
-import Highcharts from 'highcharts'
-import HighchartsReact from 'highcharts-react-official'
-import { useState , useEffect } from 'react';
-
-
+import React, { useState, useEffect } from 'react';
+import Highcharts from 'highcharts';
+import HighchartsReact from 'highcharts-react-official';
 
 function DonutChart(props) {
+  const [chartOptions, setChartOptions] = useState(null);
 
-    const getSubtitle = (y,sum) => {
-  
-        return `<span>${y}</span>
-            <br>
-            <span >
-                Total: <b> ${sum}</b> TWh
-            </span>`;
-      }
-  console.log(props.data);
-  const [chartOptions, setChartOptions] = useState( {
-    title: {
-        text: 'Amount  from 2020 to 2022',
-        align: 'center'
-    },
+  useEffect(() => {
+    const getSubtitle = (y, sum) => {
+      return `
+      
+      <div style="text-align: center;">
+      <h3>${y}</h3>
+      <h4>Total: <b>${sum}</b> $</h4>
+    </div>`;
+    };
 
-    subtitle: {
+    const updatedChartOptions = {
+      title: {
+        text: 'Sales Percentage by Country',
+        align: 'center',
+      },
+      subtitle: {
         useHTML: true,
-        text: getSubtitle(props.year,props.sum),
+        text: getSubtitle(props.year, props.sum),
         floating: true,
         verticalAlign: 'middle',
-        y: 30
-    },
-
-    legend: {
-        enabled: false
-    },
-
-    tooltip: {
-        valueDecimals: 1,
-        valueSuffix: ' TWh'
-    },
-
-    plotOptions: {
+        y: 30,
+      },
+      tooltip: {
+        pointFormat: '{series.data[1]}: <b>{point.percentage:.1f}%</b>',
+      },
+      legend: {
+        enabled: false,
+      },
+      plotOptions: {
         series: {
-            borderWidth: 0,
-            colorByPoint: true,
-            type: 'pie',
-            size: '100%',
-            innerSize: '80%',
-            dataLabels: {
-                enabled: true,
-                crop: false,
-                distance: '-10%',
-                style: {
-                    fontWeight: 'bold',
-                    fontSize: '16px'
-                },
-                connectorWidth: 0
-            }
-        }
-    },
-    colors: ['#FCE700', '#F8C4B4', '#f6e1ea', '#B8E8FC', '#BCE29E','#FCE700'],
-    series: [
+          borderWidth: 0,
+          colorByPoint: true,
+          type: 'pie',
+          size: '100%',
+          innerSize: '80%',
+          dataLabels: {
+            enabled: true,
+            crop: false,
+            distance: '-10%',
+            style: {
+              fontWeight: 'bold',
+              fontSize: '16px',
+            },
+            connectorWidth: 0,
+          },
+        },
+      },
+      colors: [
+        '#fbb03b',
+        '#223b53',
+        '#FCE700',
+        '#3bb2d0',
+        '#BCE29E',
+        '#ccc',
+      ],
+      series: [
         {
-            type: 'pie',
-            name: props.year,
-            data: props.data
-        }
-    ]
-});
+          type: 'pie',
+          name: props.year,
+          data: props.data.map((d) => [d[0].slice(0, 2), d[1]]),
+        },
+      ],
+    };
 
-                     
- 
-    
-  
-console.log(chartOptions);
+    setChartOptions(updatedChartOptions);
+  }, [props.year, props.sum, props.data]);
 
   
-
- 
   return (
     <div>
-    <figure className="highcharts-figure">
-<div id="parent-container">
-
-<div id="container">
-{ chartOptions && <HighchartsReact
-    
-    highcharts={Highcharts}
-    options={chartOptions}
-  /> }
-</div>
-</div>
-</figure>
-
-
-
-</div>
+      <figure className="highcharts-figure">
+        <div id="parent-container">
+          <div id="container">
+            {chartOptions && (
+              <HighchartsReact
+                highcharts={Highcharts}
+                options={chartOptions}
+              />
+            )}
+          </div>
+        </div>
+      </figure>
+    </div>
   );
 }
 

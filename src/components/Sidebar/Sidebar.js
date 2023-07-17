@@ -53,18 +53,18 @@ function Sidebar(props) {
     >
       <div className="logo">
         <a
-          href="https://www.creative-tim.com"
+          href="https://"
           className="simple-text logo-mini"
         >
           <div className="logo-img">
-            <img src={logo} alt="react-logo" />
+            <logo />
           </div>
         </a>
         <a
-          href="https://www.creative-tim.com"
+          href=""
           className="simple-text logo-normal"
         >
-          Creative Tim
+          PayBank
         </a>
       </div>
       <div className="sidebar-wrapper" ref={sidebar}>

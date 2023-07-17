@@ -21,7 +21,7 @@
         "Year": "2020",
         "Country": "Algeria",
         "Amount": 19748,
-        "Target": 360898
+        "Target": 3608
       },
       "geometry": {
         "type": "Point",
@@ -34,7 +34,7 @@
       "properties": {
         "Year": "2020",
         "Country": "Russia",
-        "Amount": 18,
+        "Amount": 18000,
         "Target": 227490
       },
       "geometry": {
@@ -49,7 +49,7 @@
         "Year": "2020",
         "Country": "United Kingdom",
         "Amount": 167840,
-        "Target": 281796
+        "Target": 28179
       },
       "geometry": {
         "type": "Point",
@@ -63,7 +63,7 @@
         "Year": "2020",
         "Country": "Brazil",
         "Amount": 126472,
-        "Target": 206265
+        "Target": 106200
       },
       "geometry": {
         "type": "Point",
@@ -78,6 +78,174 @@
         "Country": "Canada",
         "Amount": 125960,
         "Target": 202419
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.750595856519, 55.5859012851966, 206]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2021",
+        "Country": "Egypt",
+        "Amount": 564230,
+        "Target": 601558
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.871903452398, 26.4941838299718, 364236]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2021",
+        "Country": "Algeria",
+        "Amount": 19748,
+        "Target": 100890
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.63238813336793, 28.1632395923063, 197480]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2021",
+        "Country": "Russia",
+        "Amount": 18254,
+        "Target": 20000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.6697054604756, 61.9945734073292, 206]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2021",
+        "Country": "United Kingdom",
+        "Amount": 167840,
+        "Target": 200000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.36966957036279, 54.2379333607472, 206]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2021",
+        "Country": "Brazil",
+        "Amount": 26472,
+        "Target": 106265
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.6197890205486, -9.58890301712257, 206]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2021",
+        "Country": "Canada",
+        "Amount": 205960,
+        "Target": 202419
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.750595856519, 55.5859012851966, 206]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2022",
+        "Country": "Egypt",
+        "Amount": 1000,
+        "Target": 50155
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.871903452398, 26.4941838299718, 364236]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2022",
+        "Country": "Algeria",
+        "Amount": 60000,
+        "Target": 500898
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.63238813336793, 28.1632395923063, 197480]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2022",
+        "Country": "Russia",
+        "Amount": 180000,
+        "Target": 207490
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [96.6697054604756, 61.9945734073292, 206]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2022",
+        "Country": "United Kingdom",
+        "Amount": 307840,
+        "Target": 401796
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.36966957036279, 54.2379333607472, 206]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2022",
+        "Country": "Brazil",
+        "Amount": 106472,
+        "Target": 156265
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.6197890205486, -9.58890301712257, 206]
+      },
+      " id": "us100049i1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Year": "2022",
+        "Country": "Canada",
+        "Amount": 125960,
+        "Target": 122419
       },
       "geometry": {
         "type": "Point",
